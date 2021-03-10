@@ -28,7 +28,7 @@ mkdir -p ~/Minecraft
 cd ~/Minecraft
 
 # clone this repo
-git clone https://github.com/yusefnapora/m1-multimc-hack.git
+git clone https://github.com/17hoehbr/m1-multimc-hack.git
 ```
 
 ### Configure MultiMC
