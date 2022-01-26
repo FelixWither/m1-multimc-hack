@@ -10,7 +10,7 @@ This repo contains a wrapper script to be used with [MultiMC](https://multimc.or
 
 First, install the [Zulu Java 8 JRE for macOS ARM64](https://cdn.azul.com/zulu/bin/zulu8.52.0.23-ca-jre8.0.282-macosx_aarch64.dmg).
 
-Then download and install [MultiMC](https://multimc.org/).
+Then download and install [MultiMC](https://multimc.org/) or [HMCL](https://hmcl.huangyuhui.net).
 ### Clone this repo
 
 Open a terminal (it's in the `Utilities` folder inside of `Applications`, if you're new to command line stuff).
@@ -55,6 +55,34 @@ ls ~/Minecraft/m1-multimc-hack/mcwrap.py | pbcopy
 This will expand the `~` character to the full path to your home directory (e.g. `/Users/yourname`), and copy the whole thing onto your clipboard using the `pbcopy` command. Now you can paste it into the "Wrapper Command" box.
 
 That's it! You should be able to launch the instance and run with native performance.
+
+### Configure HMCL
+
+1.Click 'All versions', click 'Install a new game' to install game versions that you want to lauch if you haven't yet.
+
+2.At 'All versions', then select the version you want to launch.
+
+3.Back to main page, click the version dispalyed on the left side.
+
+4.Check 'Enable specialized settings for this game'
+
+5.Change Java Directory to proper (1.8.0_xxx (ARM64)) version
+
+6.In Custom Commands section, change wrapper command to the absolute path to file 'mcwrap-hmcl.py'
+
+An easy way to get the full path (assuming you put this repo in `~/Minecraft`) is to open a terminal and enter:
+
+```shell
+ls ~/Minecraft/m1-multimc-hack/mcwrap.py | pbcopy
+```
+
+This will expand the `~` character to the full path to your home directory (e.g. `/Users/yourname`), and copy the whole thing onto your clipboard using the `pbcopy` command. Now you can paste it into the "Wrapper Command" box.
+
+7.Click 'Test game' at left bottom of HMCL
+
+8.If game fails to start, change 'Native Library Path (e.g. LWJGL)' in Workarounds setction to /.../.minecraft/versions/[yourGameVersion]/natives, then enable 'Don't check whether JVM can launch the game or not'
+
+9.Back to main page, click 'play' and enjoy!
 
 ## Support, etc
 
