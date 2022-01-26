@@ -64,11 +64,15 @@ That's it! You should be able to launch the instance and run with native perform
 
 3.Back to main page, click the version dispalyed on the left side.
 
-4.Check 'Enable specialized settings for this game'(./screenshots/Custom-JDK-HMCL.jpg)
+4.Check 'Enable specialized settings for this game'
+
+![Screenshot of settings of game version](./screenshots/Custom-JDK-HMCL.jpg)
 
 5.Change Java Directory to proper (1.8.0_xxx (ARM64)) version
 
-6.In Custom Commands section, change wrapper command to the absolute path to file 'mcwrap-hmcl.py'(./screenshots/Custom-Commands-HMCL.jpg)
+6.In Custom Commands section, change wrapper command to the absolute path to file 'mcwrap-hmcl.py'
+
+![Screenshot of settings of custom commands](./screenshots/Custom-Commands-HMCL.jpg)
 
 An easy way to get the full path (assuming you put this repo in `~/Minecraft`) is to open a terminal and enter:
 
@@ -80,7 +84,9 @@ This will expand the `~` character to the full path to your home directory (e.g.
 
 7.Click 'Test game' at left bottom of HMCL
 
-8.If game fails to start, change 'Native Library Path (e.g. LWJGL)' in Workarounds setction to /.../.minecraft/versions/[yourGameVersion]/natives, then enable 'Don't check whether JVM can launch the game or not'(./screenshots/Custom-LWJGL-HMCL.jpg)
+8.If game fails to start, change 'Native Library Path (e.g. LWJGL)' in Workarounds setction to /.../.minecraft/versions/[yourGameVersion]/natives, then enable 'Don't check whether JVM can launch the game or not'
+
+![Screenshot of settings of change LWJGL](./screenshots/Custom-LWJGL-HMCL.jpg)
 
 9.Back to main page, click 'play' and enjoy!
 
