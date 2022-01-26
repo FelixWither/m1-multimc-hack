@@ -66,9 +66,9 @@ That's it! You should be able to launch the instance and run with native perform
 
 4.Check 'Enable specialized settings for this game'
 
-![Screenshot of settings of game version](./screenshots/Custom-JDK-HMCL.jpg)
-
 5.Change Java Directory to proper (1.8.0_xxx (ARM64)) version
+
+![Screenshot of settings of game version](./screenshots/Custom-JDK-HMCL.jpg)
 
 6.In Custom Commands section, change wrapper command to the absolute path to file 'mcwrap-hmcl.py'
 
@@ -97,3 +97,5 @@ I did none of the work here except for stitching files from a few competing fork
 The files `lwjglfat.jar` and all libraries in the `lwjglnatives` folder were compiled by Tanmay from the source available at https://www.lwjgl.org/source and are subject to its [BSD-style license terms](https://github.com/LWJGL/lwjgl3/blob/master/LICENSE.md).
 
 The `mcwrap.py` script was written by Yusef Napora, and is public domain. Please feel free to fork and improve, but expect PRs & issues, etc to be routed to the Sirius Cybernetics Corporation, Complaints Division. [Share and Enjoy!](https://hitchhikers.fandom.com/wiki/Share_and_Enjoy)
+
+The `mcwrap-hmcl.py` script was improved upon origin file `mcwrap.py`, which was written by Yusef Napora. FelixWither changed the method of 'Checking LWJGL version' to adapt the structure of config file created by HMCL.
