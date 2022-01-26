@@ -1,8 +1,8 @@
-# m1-multimc-hack
+# m1-multimc-hmcl-hack
 
 Want to get Minecraft running natively on a Mac with an M1 "Apple Silicon" chip? Thanks to [the excellent work](https://gist.github.com/tanmayb123/d55b16c493326945385e815453de411a) by [Tanmay Bakshi](https://gist.github.com/tanmayb123), it's possible!
 
-This repo contains a wrapper script to be used with [MultiMC](https://multimc.org) that will configure any MultiMC instance to use the Apple Silicon native libraries from Tanmay's work. All you have to do is set the wrapper command and make sure you're using an M1-compatible JDK, and it should just work. This fork should automatically be compatible with all versions of Minecraft and is compatible with Forge based modpacks as long as you use Java 8 instead of 11.
+This repo contains a wrapper script to be used with [MultiMC](https://multimc.org) or [HMCL](https://hmcl.huangyuhui.net) that will configure any MultiMC instance or HMCL game versions to use the Apple Silicon native libraries from Tanmay's work. All you have to do is set the wrapper command and make sure you're using an M1-compatible JDK, and it should just work. This fork should automatically be compatible with all versions of Minecraft and is compatible with Forge based modpacks as long as you use Java 8 instead of 11.
 
 ## Setup and Usage
 
@@ -84,7 +84,7 @@ This will expand the `~` character to the full path to your home directory (e.g.
 
 7.Click 'Test game' at left bottom of HMCL
 
-8.If game fails to start, change 'Native Library Path (e.g. LWJGL)' in Workarounds setction to /.../.minecraft/versions/[yourGameVersion]/natives, then enable 'Don't check whether JVM can launch the game or not'
+8.If game fails to start, change 'Native Library Path (e.g. LWJGL)' in Workarounds setction to /.../.minecraft/versions/[yourGameVersion]/natives (if there is no 'natives' folder in that directory, create one.), then enable 'Don't check whether JVM can launch the game or not'
 
 ![Screenshot of settings of change LWJGL](./screenshots/Custom-LWJGL-HMCL.jpg)
 
