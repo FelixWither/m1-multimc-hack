@@ -58,7 +58,7 @@ That's it! You should be able to launch the instance and run with native perform
 
 ### Configure HMCL
 
-**Currently only passed the test on Minecraft versions that uses LWJGL 2.x, 3.x cannot run on my computer.**
+**Currently only passed the test on older Minecraft versions that uses LWJGL 2.x (Under 1.12.2), 3.x cannot run on macOS12.1. (Seems it will work on macOS11, on 12 it says that failed to load 'libglfw.dylib', maybe a re-compile for LWJGL is needed on macOS 12.).**
 
 1.Click 'All versions', click 'Install a new game' to install game versions that you want to lauch if you haven't yet.
 
