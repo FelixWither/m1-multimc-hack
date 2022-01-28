@@ -27,7 +27,7 @@ def lwjglver():
         if match:
             break
 
-    if re.match(r"(.*)lwjgl:[2].[9].[2,4](.*)", lwjgl_ver):
+    if re.match(r"(.*)lwjgl:[2].[9].[0-9](.*)", lwjgl_ver):
         # LWJGL 2.9.4/2.9.2 nightly
         return 'lwjgl'
     elif re.match(r"(.*)lwjgl:[3].[0-9](.*)", lwjgl_ver):
