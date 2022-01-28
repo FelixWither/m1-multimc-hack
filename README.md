@@ -58,6 +58,8 @@ That's it! You should be able to launch the instance and run with native perform
 
 ### Configure HMCL
 
+**Currently only passed the test on Minecraft versions that uses LWJGL 2.x, 3.x cannot run on my computer.
+
 1.Click 'All versions', click 'Install a new game' to install game versions that you want to lauch if you haven't yet.
 
 2.At 'All versions', then select the version you want to launch.
